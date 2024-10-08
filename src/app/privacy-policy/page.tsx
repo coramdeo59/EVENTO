@@ -1,1 +1,11 @@
-export default function Page() { return ( <div> <h1>This is a React Server Component page</h1> </div> ); }
+import React from 'react';
+
+const Page = () => {
+    return (
+        <main>
+            privacy policy
+        </main>
+    );
+};
+
+export default Page;
